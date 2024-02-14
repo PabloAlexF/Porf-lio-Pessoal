@@ -1,0 +1,267 @@
+/* ATALHO PARA CRIAR COMENTARIO: CTRL + ; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+*{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 15px;
+    background-color: var(--gray-900);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: var(--gray-800);
+  }
+
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+.conatainer{
+    display: inline-flex; /*serve para deixar os elementos da div pai "container" em linha */
+    flex-direction: row;  /* Esta tag serve para dizer para qual direção os itens estão indo, row ( HORIZONTAL ) E tambem temos a "row-reverse" que serve para deixar os itens da direita para esquerda */
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+ 
+
+nav{
+    padding-left: 600px;
+    margin-bottom: 30px;
+}
+
+nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Segoe UI';
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover{
+  color: #ffd700;
+}
+
+.imglogo{
+    padding-left: 300px;
+    width: 110px;
+    height: 100px;
+}
+
+.container-02{
+    margin: 200px 200px;
+    display: inline-flex;
+}
+
+.informacoes{
+    gap: 70px;
+    color: aliceblue;
+    padding-top: 100px;
+    padding-left: 500px;
+}
+
+.informacoes h1{
+    font-family: 'Verdana';
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.informacoes p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgray;
+    font-size: 20px;
+}
+
+.titulo2{
+    padding-top: 120px;
+    margin-top: 60px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rubik';
+}
+
+.container-03{
+    margin: 50px 300px;
+    color: aliceblue;
+    display: inline-flex;
+    align-items: center;
+    gap: 750px;
+}
+
+.container-03 ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-03 img{
+    margin-top: 20px
+}
+
+.container-03 ul li{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    font-size: 24px;
+}
+
+.titulo3{
+  margin: 0;
+    padding-top: 50px;
+    margin-top: 60px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rubik';   
+}
+
+
+/* CONTAINER 04 */
+
+    .container-04{
+        margin-top: 0px;
+    }
+
+  .card {
+    
+    cursor: grab;
+    border: 1px white solid ;
+    width: 480px;
+    height: 400px;
+    
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: scale(0.8);
+  }
+  
+  .card:hover {
+    box-shadow: 10px 10px 10px #3B3486;
+  }
+  
+  .img4 {
+    width: 480px;
+    border-radius: 23px;
+  }
+  
+  .h4 {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 30px 0px;
+  }
+  
+  .p1 {
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    width: 414px;
+    margin-left: 55px;
+    color: #757575;
+  }
+
+/* FORMULÁRIO */
+
+
+#contact{
+  margin-top: 250px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Rubik';  
+}
+
+
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #726659;
+  
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #726659;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  
+  border: solid 1px #b3aca7;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+#submit {
+  width: 502px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
